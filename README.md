@@ -49,6 +49,6 @@ Through this project, I am practicing semantic HTML, CSS layouts, responsive web
 
 ## Author
 
-Your Name
+Sara abdellah Name
 
 Software Engineering Student
