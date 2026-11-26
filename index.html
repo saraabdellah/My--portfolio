@@ -4,388 +4,840 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta name="description" content="Personal portfolio of a Software Engineering student learning web development and building projects.">
+    <meta name="description"
+        content="Portfolio of Sara Abdellah, a Software Engineering student learning web development and building practical projects.">
 
-<title>My Portfolio | Software Engineering Student</title>
+    <title>Sara Abdellah | Software Engineering Student</title>
 
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<!-- Navigation Bar -->
+
+<!-- =========================
+     NAVIGATION
+========================= -->
+
 <header class="header">
+
     <nav class="navbar container">
 
-        <a href="#home" class="logo">My<span>Portfolio.</span></a>
+        <a href="#home" class="logo">
+            Sara<span>.</span>
+        </a>
 
-        <button class="menu-toggle"
-                id="menu-toggle"
-                aria-label="Open navigation menu"
-                aria-expanded="false"
-                aria-controls="nav-links">
+        <button
+            class="menu-toggle"
+            id="menu-toggle"
+            aria-label="Open navigation menu"
+            aria-expanded="false"
+            aria-controls="nav-links">
+            ☰
         </button>
 
         <ul class="nav-links" id="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#contact" class="nav-contact">Contact Me</a></li>
+
+            <li>
+                <a href="#home">Home</a>
+            </li>
+
+            <li>
+                <a href="#about">About</a>
+            </li>
+
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+
+            <li>
+                <a href="#education">Education</a>
+            </li>
+
+            <li>
+                <a href="#contact" class="nav-contact">
+                    Contact Me
+                </a>
+            </li>
+
         </ul>
 
     </nav>
+
 </header>
 
 
 <main>
 
-    <!-- Home Section -->
-    <section class="hero section" id="home">
-        <div class="container hero-content">
 
-            <div class="hero-text">
-                <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+<!-- =========================
+     HERO SECTION
+========================= -->
 
-                <h1>
-                    Hello, I'm <span class="highlight">Sara</span>
-                </h1>
+<section class="hero section" id="home">
 
-                <h2>Software Engineering Student</h2>
+    <div class="container hero-content">
 
-                <p class="hero-description">
-                    I am a passionate software engineering student
-                    learning to build useful, accessible, and
-                    user-friendly websites and applications.
-                    I enjoy solving problems, learning new technologies,
-                    and turning ideas into real projects.
-                </p>
+        <div class="hero-text">
 
-                <div class="hero-buttons">
-                    <a href="#projects" class="btn btn-primary">
-                        Explore My Projects
-                    </a>
+            <p class="eyebrow">
+                WELCOME TO MY DIGITAL SPACE
+            </p>
 
-                    <a href="#contact" class="btn btn-secondary">
-                        Contact Me
-                    </a>
-                </div>
+            <h1>
+                Hello, I'm
+                <span class="highlight">Sara.</span>
+            </h1>
+
+            <h2>
+                Software Engineering Student
+            </h2>
+
+            <p class="hero-description">
+                I am a Software Engineering student learning to
+                turn ideas into useful digital experiences through
+                programming, web development, and problem solving.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#projects" class="btn btn-primary">
+                    Explore My Work
+                    <span>→</span>
+                </a>
+
+                <a href="#contact" class="btn btn-secondary">
+                    Let's Connect
+                </a>
+
             </div>
 
-            <div class="hero-card">
-                <div class="code-window">
+            <div class="hero-status">
+
+                <span class="status-dot"></span>
+
+                <span>
+                    Currently learning & building
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <!-- Developer Code Card -->
+
+        <div class="hero-card">
+
+            <div class="code-window">
+
+                <div class="code-top">
+
                     <div class="window-dots">
                         <span></span>
                         <span></span>
                         <span></span>
                     </div>
 
-                    <pre><code>const developer = {
+                    <span class="file-name">
+                        sara.js
+                    </span>
 
-name: "Your Name",
-role: "Software Engineering Student",
-learning: [
-"HTML",
-"CSS",
-"JavaScript",
-"Java"
-],
-mindset: "Always Learning"
-};</code></pre> </div> </div>
-
-```
-        </div>
-    </section>
-
-
-    <!-- About Section -->
-    <section class="section about" id="about">
-        <div class="container">
-
-            <div class="section-heading">
-                <p class="eyebrow">GET TO KNOW ME</p>
-                <h2>About <span class="highlight">Me</span></h2>
-                <p>A little introduction about who I am and what I do.</p>
-            </div>
-
-            <div class="about-content">
-
-                <div class="about-icon">
-                    &lt;/&gt;
                 </div>
 
-                <div class="about-text">
-                    <h3>My Journey in Software Engineering</h3>
+<pre><code><span class="code-purple">const</span> developer = {
 
-                    <p>
-                        I am a Software Engineering student who is
-                        developing practical skills in programming
-                        and web development.
-                    </p>
+    name: <span class="code-green">"Sara"</span>,
+    role: <span class="code-green">"Software Engineering Student"</span>,
 
-                    <p>
-                        My learning journey includes understanding
-                        programming fundamentals, designing web pages,
-                        writing code, debugging errors, and building
-                        projects that help me improve my skills.
-                    </p>
+    learning: [
+        <span class="code-green">"HTML"</span>,
+        <span class="code-green">"CSS"</span>,
+        <span class="code-green">"JavaScript"</span>,
+        <span class="code-green">"Java"</span>
+    ],
 
-                    <p>
-                        My long-term goal is to become a skilled
-                        full-stack developer who can build complete
-                        web applications and solve real-world problems
-                        through technology.
-                    </p>
+    goal: <span class="code-green">"Full-Stack Developer"</span>,
+
+    mindset: <span class="code-green">"Always Learning"</span>
+};</code></pre>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================
+     ABOUT SECTION
+========================= -->
+
+<section class="section about" id="about">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <p class="eyebrow">
+                GET TO KNOW ME
+            </p>
+
+            <h2>
+                About <span class="highlight">Me</span>
+            </h2>
+
+            <p>
+                A little introduction about who I am,
+                what I am learning, and where I am going.
+            </p>
+
+        </div>
+
+
+        <div class="about-wrapper">
+
+            <!-- Profile -->
+
+            <div class="profile-area">
+
+                <div class="profile-frame">
+
+                    <img
+                        src="images/sarah.png"
+                        alt="Sara Abdellah - Software Engineering Student"
+                        class="profile">
+
+                </div>
+
+                <div class="profile-label">
+
+                    <span class="profile-line"></span>
+
+                    <div>
+                        <strong>Sara Abdellah</strong>
+                        <small>Software Engineering Student</small>
+                    </div>
+
                 </div>
 
             </div>
-        </div>
-    </section>
 
 
-    <!-- Skills Section -->
-    <section class="section skills" id="skills">
-        <div class="container">
+            <!-- About Text -->
 
-            <div class="section-heading">
-                <p class="eyebrow">WHAT I AM LEARNING</p>
-                <h2>My <span class="highlight">Skills</span></h2>
-                <p>Technologies and concepts I am developing my skills in.</p>
-            </div>
+            <div class="about-text">
 
-            <div class="skills-grid">
-
-                <article class="skill-card">
-                    <div class="skill-icon">🌐</div>
-                    <h3>HTML5</h3>
-                    <p>Creating structured and semantic web pages.</p>
-                </article>
-
-                <article class="skill-card">
-                    <div class="skill-icon">🎨</div>
-                    <h3>CSS3</h3>
-                    <p>Styling websites with layouts, colors, and responsive design.</p>
-                </article>
-
-                <article class="skill-card">
-                    <div class="skill-icon">⚡</div>
-                    <h3>JavaScript</h3>
-                    <p>Learning programming logic and interactive web development.</p>
-                </article>
-
-                <article class="skill-card">
-                    <div class="skill-icon">☕</div>
-                    <h3>Java</h3>
-                    <p>Practicing programming fundamentals and problem-solving.</p>
-                </article>
-
-                <article class="skill-card">
-                    <div class="skill-icon">🔧</div>
-                    <h3>Git & GitHub</h3>
-                    <p>Learning version control and project management.</p>
-                </article>
-
-                <article class="skill-card">
-                    <div class="skill-icon">💡</div>
-                    <h3>Problem Solving</h3>
-                    <p>Practicing logical thinking and debugging.</p>
-                </article>
-
-            </div>
-        </div>
-    </section>
-
-
-    <!-- Projects Section -->
-    <section class="section projects" id="projects">
-        <div class="container">
-
-            <div class="section-heading">
-                <p class="eyebrow">MY WORK</p>
-                <h2>Featured <span class="highlight">Projects</span></h2>
-                <p>A collection of projects I have worked on while learning.</p>
-            </div>
-
-            <div class="projects-grid">
-
-                <article class="project-card">
-                    <div class="project-number">PROJECT 01</div>
-
-                    <div class="project-visual project-visual-one">
-                        <span>&lt;/&gt;</span>
-                    </div>
-
-                    <div class="project-info">
-                        <h3>Personal Portfolio Website</h3>
-
-                        <p>
-                            A responsive website introducing my
-                            background, skills, projects, and goals
-                            as a Software Engineering student.
-                        </p>
-
-                        <div class="project-tags">
-                            <span>HTML</span>
-                            <span>CSS</span>
-                            <span>JavaScript</span>
-                        </div>
-
-                        <a href="#contact" class="project-link">
-                            Get in Touch &rarr;
-                        </a>
-                    </div>
-                </article>
-
-
-                <article class="project-card">
-                    <div class="project-number">PROJECT 02</div>
-
-                    <div class="project-visual project-visual-two">
-                        <span>☕</span>
-                    </div>
-
-                    <div class="project-info">
-                        <h3>A/Minch Delivery Menu</h3>
-
-                        <p>
-                            A food delivery menu presenting food
-                            items and prices in an organized,
-                            readable format for customers.
-                        </p>
-
-                        <div class="project-tags">
-                            <span>HTML</span>
-                            <span>CSS</span>
-                            <span>Web Design</span>
-                        </div>
-
-                        <a href="#contact" class="project-link">
-                            Get in Touch &rarr;
-                        </a>
-                    </div>
-                </article>
-
-
-                <article class="project-card">
-                    <div class="project-number">PROJECT 03</div>
-
-                    <div class="project-visual project-visual-three">
-                        <span>⌨</span>
-                    </div>
-
-                    <div class="project-info">
-                        <h3>JavaScript Programming Projects</h3>
-
-                        <p>
-                            Small programming projects developed
-                            to practice variables, conditions,
-                            loops, methods, and problem-solving.
-                        </p>
-
-                        <div class="project-tags">
-                            <span>Java</span>
-                            <span>Programming</span>
-                            <span>Git</span>
-                        </div>
-
-                        <a href="#contact" class="project-link">
-                            Get in Touch &rarr;
-                        </a>
-                    </div>
-                </article>
-
-            </div>
-        </div>
-    </section>
-
-
-    <!-- Education Section -->
-    <section class="section education" id="education">
-        <div class="container">
-
-            <div class="section-heading">
-                <p class="eyebrow">MY BACKGROUND</p>
-                <h2><span class="highlight">Education</span></h2>
-                <p>My academic journey and continuous learning.</p>
-            </div>
-
-            <div class="education-card">
-                <div class="education-icon">🎓</div>
-
-                <div>
-                    <p class="education-label">CURRENT STUDIES</p>
-
-                    <h3>Bachelor's Degree in Software Engineering</h3>
-
-                    <p class="education-place">
-                    Arbaminch university
-                    </p>
-
-                    <p>
-                        Studying software development, programming,
-                        software design, and computer science concepts
-                        while developing practical technical skills.
-                    </p>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-
-    <!-- Contact Section -->
-    <section class="section contact" id="contact">
-        <div class="container">
-
-            <div class="contact-box">
-                <p class="eyebrow">LET'S CONNECT</p>
-
-                <h2>Have a Project in <span class="highlight">Mind?</span></h2>
-
-                <p>
-                    I am always interested in learning, collaborating,
-                    and connecting with people who share an interest
-                    in technology and software development.
+                <p class="about-intro">
+                    I am a Software Engineering student who is
+                    developing practical skills in programming,
+                    web development, and problem solving.
                 </p>
 
-                <a href="mailto:your.email@example.com"
-                   class="btn btn-primary">
-                    Send Me an Email
-                </a>
+                <p>
+                    My learning journey involves understanding
+                    programming fundamentals, designing web pages,
+                    writing clean code, debugging errors, and
+                    building projects that turn what I learn into
+                    something practical.
+                </p>
 
-                <div class="social-links">
-                    <a href="https://github.com/"
-                       target="_blank"
-                       rel="noopener noreferrer">
-                        GitHub
-                    </a>
+                <p>
+                    I enjoy learning step by step and improving
+                    through practice. Every project gives me a
+                    chance to understand technology better and
+                    become a stronger problem solver.
+                </p>
 
-                    <a href="https://www.linkedin.com/"
-                       target="_blank"
-                       rel="noopener noreferrer">
-                        LinkedIn
-                    </a>
+                <p>
+                    My long-term goal is to become a skilled
+                    full-stack developer capable of building
+                    complete web applications and solving
+                    real-world problems through technology.
+                </p>
+
+
+                <!-- Developer Identity -->
+
+                <div class="about-details">
+
+                    <div class="detail-item">
+                        <span class="detail-icon">&lt;/&gt;</span>
+
+                        <div>
+                            <strong>Focus</strong>
+                            <span>Web Development</span>
+                        </div>
+                    </div>
+
+
+                    <div class="detail-item">
+                        <span class="detail-icon">⌘</span>
+
+                        <div>
+                            <strong>Approach</strong>
+                            <span>Learn • Build • Improve</span>
+                        </div>
+                    </div>
+
+
+                    <div class="detail-item">
+                        <span class="detail-icon">→</span>
+
+                        <div>
+                            <strong>Goal</strong>
+                            <span>Full-Stack Development</span>
+                        </div>
+                    </div>
+
                 </div>
+
             </div>
 
         </div>
-    </section>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================
+     SKILLS SECTION
+========================= -->
+
+<section class="section skills" id="skills">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <p class="eyebrow">
+                WHAT I AM BUILDING
+            </p>
+
+            <h2>
+                My <span class="highlight">Skills</span>
+            </h2>
+
+            <p>
+                Technologies and problem-solving skills
+                I am developing through practice and projects.
+            </p>
+
+        </div>
+
+
+        <div class="skills-grid">
+
+            <article class="skill-card">
+
+                <div class="skill-top">
+                    <span class="skill-number">01</span>
+                    <span class="skill-icon">🌐</span>
+                </div>
+
+                <h3>HTML5</h3>
+
+                <p>
+                    Creating structured, semantic, and
+                    accessible web pages.
+                </p>
+
+                <span class="skill-level">
+                    Learning & Practicing
+                </span>
+
+            </article>
+
+
+            <article class="skill-card">
+
+                <div class="skill-top">
+                    <span class="skill-number">02</span>
+                    <span class="skill-icon">✦</span>
+                </div>
+
+                <h3>CSS3</h3>
+
+                <p>
+                    Designing responsive layouts with
+                    spacing, typography, and visual hierarchy.
+                </p>
+
+                <span class="skill-level">
+                    Learning & Practicing
+                </span>
+
+            </article>
+
+
+            <article class="skill-card">
+
+                <div class="skill-top">
+                    <span class="skill-number">03</span>
+                    <span class="skill-icon">JS</span>
+                </div>
+
+                <h3>JavaScript</h3>
+
+                <p>
+                    Developing programming logic and
+                    interactive web experiences.
+                </p>
+
+                <span class="skill-level">
+                    Learning & Practicing
+                </span>
+
+            </article>
+
+
+            <article class="skill-card">
+
+                <div class="skill-top">
+                    <span class="skill-number">04</span>
+                    <span class="skill-icon">☕</span>
+                </div>
+
+                <h3>Java</h3>
+
+                <p>
+                    Practicing programming fundamentals,
+                    logic, and problem solving.
+                </p>
+
+                <span class="skill-level">
+                    Learning & Practicing
+                </span>
+
+            </article>
+
+
+            <article class="skill-card">
+
+                <div class="skill-top">
+                    <span class="skill-number">05</span>
+                    <span class="skill-icon">⌘</span>
+                </div>
+
+                <h3>Git & GitHub</h3>
+
+                <p>
+                    Learning version control and managing
+                    development projects.
+                </p>
+
+                <span class="skill-level">
+                    Learning & Practicing
+                </span>
+
+            </article>
+
+
+            <article class="skill-card">
+
+                <div class="skill-top">
+                    <span class="skill-number">06</span>
+                    <span class="skill-icon">◆</span>
+                </div>
+
+                <h3>Problem Solving</h3>
+
+                <p>
+                    Practicing logical thinking, debugging,
+                    and breaking problems into steps.
+                </p>
+
+                <span class="skill-level">
+                    Always Improving
+                </span>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================
+     PROJECTS SECTION
+========================= -->
+
+<section class="section projects" id="projects">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <p class="eyebrow">
+                SELECTED WORK
+            </p>
+
+            <h2>
+                Featured <span class="highlight">Projects</span>
+            </h2>
+
+            <p>
+                Projects that represent my learning,
+                practice, and progress as a developer.
+            </p>
+
+        </div>
+
+
+        <div class="projects-grid">
+
+
+            <!-- Project 01 -->
+
+            <article class="project-card">
+
+                <div class="project-header">
+
+                    <span>
+                        PROJECT 01
+                    </span>
+
+                    <span class="project-arrow">
+                        ↗
+                    </span>
+
+                </div>
+
+
+                <div class="project-visual project-visual-one">
+
+                    <span class="visual-code">
+                        &lt;/&gt;
+                    </span>
+
+                </div>
+
+
+                <div class="project-info">
+
+                    <h3>
+                        Personal Portfolio Website
+                    </h3>
+
+                    <p>
+                        A responsive personal website presenting
+                        my background, skills, projects, education,
+                        and goals as a Software Engineering student.
+                    </p>
+
+                    <div class="project-tags">
+
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+
+                    </div>
+
+                    <a href="#contact" class="project-link">
+                        View Project
+                        <span>→</span>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- Project 02 -->
+
+            <article class="project-card">
+
+                <div class="project-header">
+
+                    <span>
+                        PROJECT 02
+                    </span>
+
+                    <span class="project-arrow">
+                        ↗
+                    </span>
+
+                </div>
+
+
+                <div class="project-visual project-visual-two">
+
+                    <span class="visual-food">
+                        ☕
+                    </span>
+
+                </div>
+
+
+                <div class="project-info">
+
+                    <h3>
+                        A/Minch Delivery Menu
+                    </h3>
+
+                    <p>
+                        A structured food delivery menu designed
+                        to present food items and prices in a
+                        clear and readable format.
+                    </p>
+
+                    <div class="project-tags">
+
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Web Design</span>
+
+                    </div>
+
+                    <a href="#contact" class="project-link">
+                        View Project
+                        <span>→</span>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- Project 03 -->
+
+            <article class="project-card">
+
+                <div class="project-header">
+
+                    <span>
+                        PROJECT 03
+                    </span>
+
+                    <span class="project-arrow">
+                        ↗
+                    </span>
+
+                </div>
+
+
+                <div class="project-visual project-visual-three">
+
+                    <span class="visual-keyboard">
+                        ⌨
+                    </span>
+
+                </div>
+
+
+                <div class="project-info">
+
+                    <h3>
+                        Programming Projects
+                    </h3>
+
+                    <p>
+                        Small programming projects created to
+                        practice variables, conditions, loops,
+                        functions, and problem solving.
+                    </p>
+
+                    <div class="project-tags">
+
+                        <span>Java</span>
+                        <span>JavaScript</span>
+                        <span>Git</span>
+
+                    </div>
+
+                    <a href="#contact" class="project-link">
+                        View Project
+                        <span>→</span>
+                    </a>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================
+     EDUCATION
+========================= -->
+
+<section class="section education" id="education">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <p class="eyebrow">
+                MY FOUNDATION
+            </p>
+
+            <h2>
+                <span class="highlight">Education</span>
+            </h2>
+
+            <p>
+                My academic journey and continuous development.
+            </p>
+
+        </div>
+
+
+        <div class="education-card">
+
+            <div class="education-icon">
+                🎓
+            </div>
+
+            <div class="education-content">
+
+                <p class="education-label">
+                    CURRENT STUDIES
+                </p>
+
+                <h3>
+                    Bachelor's Degree in Software Engineering
+                </h3>
+
+                <p class="education-place">
+                    Arba Minch University
+                </p>
+
+                <p>
+                    Studying software development, programming,
+                    software design, and computer science concepts
+                    while building practical technical skills
+                    through projects and continuous learning.
+                </p>
+
+                <div class="education-line">
+
+                    <span>
+                        Software Development
+                    </span>
+
+                    <span>
+                        Programming
+                    </span>
+
+                    <span>
+                        Problem Solving
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================
+     CONTACT
+========================= -->
+
+<section class="section contact" id="contact">
+
+    <div class="container">
+
+        <div class="contact-box">
+
+            <p class="eyebrow">
+                LET'S CONNECT
+            </p>
+
+            <h2>
+                Have a Project in
+                <span class="highlight">Mind?</span>
+            </h2>
+
+            <p>
+                I am always interested in learning,
+                collaborating, and connecting with people
+                who share an interest in technology and
+                software development.
+            </p>
+
+            <a href="mailto:your.email@example.com"
+               class="btn btn-primary">
+                Send Me an Email
+                <span>→</span>
+            </a>
+
+
+            <div class="social-links">
+
+                <a href="https://github.com/"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    GitHub
+                </a>
+
+                <a href="https://www.linkedin.com/"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    LinkedIn
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
 
 </main>
 
 
-<!-- Footer -->
+
+<!-- =========================
+     FOOTER
+========================= -->
+
 <footer class="footer">
+
     <div class="container footer-content">
 
         <p>
-            &copy; <span id="current-year"></span>
-            Sarah. All rights reserved.
+            &copy;
+            <span id="current-year"></span>
+            Sara Abdellah. All rights reserved.
         </p>
 
-        <a href="#home">Back to Top ↑</a>
+        <a href="#home">
+            Back to Top ↑
+        </a>
 
     </div>
+
 </footer>
+
+
+<!-- JavaScript -->
+<script src="script.js"></script>
 
 </body>
 </html>
+```
